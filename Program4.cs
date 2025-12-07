@@ -27,7 +27,7 @@ namespace ConsoleApplication
             {
 
                 // Input Customer Name
-                Console.Write("Enter Customer Full Name: ");
+                Console.Write("Enter Customer Full Good Name: ");
                 string customerName = Console.ReadLine();
 
                 // Input Number Of Coffee Bags
@@ -68,7 +68,7 @@ namespace ConsoleApplication
 
                 if (isReseller)
                 {
-                    discount = totalCost * 0.25;
+                    discount = totalCost * 0.30;
                 }
 
                 // Print Bill
